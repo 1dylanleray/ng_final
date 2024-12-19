@@ -1,0 +1,31 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "test@test.com",
+      "password": "123456",
+      "name": "John Doe"
+    },
+    {
+      "id": "b9ce",
+      "email": "ezah@test.com",
+      "password": "password",
+      "name": "Ezah"
+    }
+  ],
+  "hotels": [
+    {
+      "id": "1",
+      "name": "Hotel Paradise",
+      "location": "Paris",
+      "price": 120
+    },
+    {
+      "id": "2",
+      "name": "Ocean View Resort",
+      "location": "Miami",
+      "price": 200
+    }
+  ],
+  "bookings": []
+}
