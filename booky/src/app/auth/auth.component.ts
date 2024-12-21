@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Injectable } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
 import { AuthService } from './auth.service';
@@ -11,6 +11,7 @@ import { AuthService } from './auth.service';
 export class AuthComponent {
   authForm: FormGroup;
   isLoginMode: boolean = true;
+  route: any;
 
   constructor(
     private fb: FormBuilder,
@@ -38,15 +39,15 @@ export class AuthComponent {
     if (this.authForm.invalid) return;
 
     const { email, password, name } = this.authForm.value;
-
     if (this.isLoginMode) {
-      this.authService.login(email, password).subscribe(
-        (res) => {
-          alert('Login successful!');
-          this.router.navigate(['/hotels']);
+      this.authService.login(email, password).subscribe({
+        next: () => {
+          const returnUrl =
+            this.route.snapshot.queryParamMap.get('returnUrl') || '/hotels';
+          this.router.navigate([returnUrl]);
         },
-        (err) => alert('Login failed: ' + err.message)
-      );
+        error: (err) => alert(err.message),
+      });
     } else {
       this.authService.signup(email, password, name).subscribe(
         (res) => {

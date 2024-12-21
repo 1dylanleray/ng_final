@@ -1,0 +1,21 @@
+<div class="hotel-list">
+  
+    <div *ngIf="loading" class="text-center">
+      <p>Loading hotels...</p>
+    </div>
+  
+    <div *ngIf="!loading && hotels.length === 0" class="text-center">
+      <p>No hotels found.</p>
+    </div>
+  
+    <div *ngIf="!loading && hotels.length > 0">
+      <div *ngFor="let hotel of hotels" class="mb-4">
+        <app-hotel-unit [hotel]="hotel"></app-hotel-unit>
+      </div>
+    </div>
+  </div>
+  
+
+  
+  
+  

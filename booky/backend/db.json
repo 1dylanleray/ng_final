@@ -11,20 +11,166 @@
       "email": "ezah@test.com",
       "password": "password",
       "name": "Ezah"
+    },
+    {
+      "id": "7a62",
+      "email": "jay@gmail.com",
+      "password": "mdpmdp",
+      "name": "jay"
+    },
+    {
+      "id": "9820",
+      "email": "test@test.fr",
+      "password": "mdptest",
+      "name": "test"
+    },
+    {
+      "id": "ffca",
+      "email": "ezzaah@test.com",
+      "password": "motdepaslnlnfd",
+      "name": "SD"
     }
   ],
   "hotels": [
     {
       "id": "1",
-      "name": "Hotel Paradise",
-      "location": "Paris",
-      "price": 120
+      "name": "Hotel Sunset",
+      "location": "Paris, France",
+      "pricePerNight": 120,
+      "rating": 4.5
     },
     {
       "id": "2",
-      "name": "Ocean View Resort",
-      "location": "Miami",
-      "price": 200
+      "name": "Mountain Escape",
+      "location": "Denver, USA",
+      "pricePerNight": 150,
+      "rating": 4.8
+    },
+    {
+      "id": "3",
+      "name": "City Lights Inn",
+      "location": "New York, USA",
+      "pricePerNight": 200,
+      "rating": 4.2
+    },
+    {
+      "id": "4",
+      "name": "Beachside Paradise",
+      "location": "Miami, USA",
+      "pricePerNight": 180,
+      "rating": 4.7
+    },
+    {
+      "id": "5",
+      "name": "Lakeside Retreat",
+      "location": "Zurich, Switzerland",
+      "pricePerNight": 250,
+      "rating": 4.6
+    },
+    {
+      "id": "6",
+      "name": "Desert Oasis",
+      "location": "Dubai, UAE",
+      "pricePerNight": 300,
+      "rating": 4.9
+    },
+    {
+      "id": "7",
+      "name": "Forest Haven",
+      "location": "Kyoto, Japan",
+      "pricePerNight": 175,
+      "rating": 4.4
+    },
+    {
+      "id": "8",
+      "name": "Urban Chic Hotel",
+      "location": "London, UK",
+      "pricePerNight": 220,
+      "rating": 4.3
+    },
+    {
+      "id": "9",
+      "name": "Royal Palace Inn",
+      "location": "Rome, Italy",
+      "pricePerNight": 280,
+      "rating": 4.7
+    },
+    {
+      "id": "10",
+      "name": "Safari Lodge",
+      "location": "Nairobi, Kenya",
+      "pricePerNight": 140,
+      "rating": 4.5
+    },
+    {
+      "id": "11",
+      "name": "Northern Lights Hotel",
+      "location": "Reykjavik, Iceland",
+      "pricePerNight": 190,
+      "rating": 4.8
+    },
+    {
+      "id": "12",
+      "name": "Island Escape",
+      "location": "Bali, Indonesia",
+      "pricePerNight": 160,
+      "rating": 4.6
+    },
+    {
+      "id": "13",
+      "name": "Golden Gate Lodge",
+      "location": "San Francisco, USA",
+      "pricePerNight": 240,
+      "rating": 4.3
+    },
+    {
+      "id": "14",
+      "name": "Capital Elegance Hotel",
+      "location": "Washington D.C., USA",
+      "pricePerNight": 230,
+      "rating": 4.4
+    },
+    {
+      "id": "15",
+      "name": "Snow Peak Inn",
+      "location": "Whistler, Canada",
+      "pricePerNight": 210,
+      "rating": 4.7
+    },
+    {
+      "id": "16",
+      "name": "Oriental Charm Hotel",
+      "location": "Beijing, China",
+      "pricePerNight": 180,
+      "rating": 4.3
+    },
+    {
+      "id": "17",
+      "name": "Tropical Breeze Resort",
+      "location": "Honolulu, USA",
+      "pricePerNight": 260,
+      "rating": 4.9
+    },
+    {
+      "id": "18",
+      "name": "Historic Heritage Hotel",
+      "location": "Edinburgh, Scotland",
+      "pricePerNight": 190,
+      "rating": 4.5
+    },
+    {
+      "id": "19",
+      "name": "Riverside Bliss",
+      "location": "Amsterdam, Netherlands",
+      "pricePerNight": 210,
+      "rating": 4.6
+    },
+    {
+      "id": "20",
+      "name": "Cosmopolitan Hotel",
+      "location": "Sydney, Australia",
+      "pricePerNight": 250,
+      "rating": 4.8
     }
   ],
   "bookings": []
